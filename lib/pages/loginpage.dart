@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:userapp/pages/categorypage.dart';
 import 'package:userapp/pages/productdetail.dart';
 import 'package:userapp/pages/signuppage.dart';
 import 'package:userapp/utils/colors.dart';
@@ -85,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       ),
                       onPressed: ()  {
-                        Navigator.pushNamed(context, ProductDetailPage.routeName);
+                        Navigator.pushNamed(context, CategoryPage.routeName);
                       },
                       child:  Text(
                         'Login',
